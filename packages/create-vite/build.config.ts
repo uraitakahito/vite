@@ -36,6 +36,7 @@ export default defineBuildConfig({
       ]
     },
   },
+  sourcemap: true,
 })
 
 const cc0LicenseText = `
