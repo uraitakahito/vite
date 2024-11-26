@@ -12,7 +12,7 @@ export default defineBuildConfig({
     inlineDependencies: true,
     esbuild: {
       target: 'node18',
-      minify: true,
+      minify: false,
     },
   },
   alias: {
